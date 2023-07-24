@@ -7,7 +7,7 @@
 .container{
     width: 1170px;
     margin: 5px auto;
-    background-color: rgb(153, 255, 0);
+    background-color: darkblue;
 }
 
 .d-flex{
@@ -28,7 +28,7 @@
 
 .col-6 > .col-2{
     width: calc(100% / 12 * 2 + 1rem);
-    background-color: green;
+    background-color: #01e164;
     color: white;
     font-size: 11px;
     text-align: center;
@@ -37,7 +37,7 @@
 
 .col-6 [class^='col-8']{
     width: calc(100% / 12 * 8 + 1rem);
-    background-color: green;
+    background-color: #01e164;
     color: white;
     font-size: 15px;
     text-align: center;
@@ -47,10 +47,14 @@
 
 .col-6 > .col-6{
     width: calc(100% / 12 * 6 + 1rem);
-    background-color: green;
+    background-color: #01e164;
     color: white;
     font-size: 15px;
     text-align: center;
     height: 80%;
 
+}
+
+.mb-1{
+    margin-bottom: 1rem;
 }
